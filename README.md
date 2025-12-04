@@ -25,31 +25,6 @@ Simply copy the entire folder to any location (USB drive, cloud storage, etc.) a
 2. Use the main menu to start playing.
 3. No additional software or dependencies needed.
 
-## File Structure
-
-game_folder/
-├── game.exe                    # Main executable (PyGame application compiled with PyInstaller)
-├── images/                    # All visual assets
-│   ├── tiles.png              # Platform textures
-│   ├── interface.png          # HUD and interface elements
-│   ├── menu.png               # Menu graphics
-│   ├── kubmove.png            # Player character animations
-│   ├── jump_up.png            # Jump animation frames
-│   ├── enemy_fly.png          # Flying enemy sprites
-│   ├── enemy_ground.png       # Ground enemy sprites
-│   └── [weapon sprites]       # Various weapon graphics
-├── sound/                     # Audio assets
-│   ├── shoot_shotgun.mp3      # Shotgun firing sound
-│   ├── shoot_rifle.mp3        # Rifle firing sound
-│   ├── running.wav            # Footstep sounds
-│   ├── jump.wav               # Jump sound effect
-│   ├── dash.wav               # Dash ability sound
-│   ├── rearmed.mp3            # Reload sound
-│   ├── menu_button.mp3        # Menu interaction sound
-│   └── [music files]          # Background music tracks
-└── [optional] saves/          # Save data folder (created automatically)
-
-
 ## Controls
 
 ### Movement
@@ -164,4 +139,3 @@ For issues with the EXE version:
 2. Verify file structure is correct.
 3. Ensure your system meets requirements.
 4. Contact the developer if problems persist.
-```
