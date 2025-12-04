@@ -1,4 +1,3 @@
-```markdown
 # Cubanoid
 
 ## Game Overview
@@ -27,7 +26,7 @@ Simply copy the entire folder to any location (USB drive, cloud storage, etc.) a
 3. No additional software or dependencies needed.
 
 ## File Structure
-```
+
 game_folder/
 ├── game.exe                    # Main executable (PyGame application compiled with PyInstaller)
 ├── images/                    # All visual assets
@@ -49,7 +48,7 @@ game_folder/
 │   ├── menu_button.mp3        # Menu interaction sound
 │   └── [music files]          # Background music tracks
 └── [optional] saves/          # Save data folder (created automatically)
-```
+
 
 ## Controls
 
